@@ -144,7 +144,7 @@ companyMenu.addEventListener("click", function(){
       console.log(true)
 
       companyMenu.innerHTML = `
-      Comapny <img src="images/icon-arrow-dark.svg" alt="dark-arrow" ;">
+      Company <img src="images/icon-arrow-dark.svg" alt="dark-arrow" ;">
       `
    }else{
       console.log(false)
