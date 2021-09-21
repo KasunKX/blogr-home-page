@@ -627,7 +627,8 @@ footer ul li{
       display: flex;
       align-items: center;
       justify-content: space-between;
-    
+      padding-top: 3.4vw;
+      padding-bottom: 3.4vw;
 
    }
    .begin-buttons button{
@@ -643,11 +644,16 @@ footer ul li{
       background-color: hsl(0, 0%, 100%);
       color: hsl(353, 100%, 62%);
       transition: 0.4s;
+      padding-top: 3.2vw;
+      padding-bottom: 2.8vw;
       
    }
-   button.learn-mobile{
+   .begin-buttons .start-free{
       padding-top: 3.4vw;
-      padding-bottom: 3.4vw;
+      padding-bottom: 3vw;
+   }
+   button.learn-mobile{
+  
       background-color: transparent;
       border: 2px solid white;
       outline: none;
